@@ -1,0 +1,27 @@
+---
+title: xyliul
+members:
+  - title: の愉快な仲間達
+---
+
+<h1>{{ title }}</h1>
+<ul>
+    <li><a href="" class="">home</a></li>
+    <li><a href="" class="">about</a></li>
+</ul>
+<p>{{ members.title }}</p>
+<div>
+	{% for member in members %}
+	{{title}}{{ member.title }}
+	{% endfor %}
+</div>
+<ul>
+	{% for author in authors %}
+	<li>
+        <a href="../authors/{{ author.url }}"> {{ author.name }}</a>
+        <img src="../images/{{author.itemphotos[0]}}" alt="">
+        <p>{{ author.price }}</p>
+        <p>{{ author.state }}</p>
+    </li>
+	{% endfor %}
+</ul>

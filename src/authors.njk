@@ -1,0 +1,15 @@
+---
+pagination:
+  data: authors
+  size: 1
+layout: layout.njk
+permalink: 'authors/{{ pagination.items[0].url | slugify }}/'
+---
+
+<ul>
+	<li>{{ pagination.items[0].name }}</li>
+	<li>＄{{ pagination.items[0].price }}</li>
+    <li>{{ pagination.items[0].state }}</li>
+    <li>{{ pagination.items[0].text }}</li>
+    <li>{{ pagination.items[0].maker }}</li>
+</ul>
