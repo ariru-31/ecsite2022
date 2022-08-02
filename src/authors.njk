@@ -2,14 +2,79 @@
 pagination:
   data: authors
   size: 1
+  alias: author
 layout: layout.njk
 permalink: 'authors/{{ pagination.items[0].url | slugify }}/'
+csspath: ../../css/
+jspath: ../../js/
 ---
 
-<ul>
-	<li>{{ pagination.items[0].name }}</li>
-	<li>＄{{ pagination.items[0].price }}</li>
-    <li>{{ pagination.items[0].state }}</li>
-    <li>{{ pagination.items[0].text }}</li>
-    <li>{{ pagination.items[0].maker }}</li>
-</ul>
+<header class="header2">
+  <div class="top">
+    <a href="https://w-23-ariru.kill.jp/_site/">
+    <h1>{{ title }}</h1>
+    </a>
+    <ul class="top__ul">
+        <li class="top__li"><a class="top__a" href="https://w-23-ariru.kill.jp/_site/" class="">home</a></li>
+        <li class="top__li"><a class="top__a" href="#" class="">about</a></li>
+    </ul>
+    <div class="top__btnall">
+        <a href="#"><img class="top__btn" src="../../images/shop.png" alt=""></a>
+        </div>
+  </div>
+<div class="conts-body">
+      <button class="hamburger">
+                <span class="hamburger_bar"></span>
+                <span class="hamburger_bar"></span>
+                <span class="hamburger_bar"></span>
+      </button>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="https://w-23-ariru.kill.jp/_site/" class="nav-a">home</a></li>
+      <li class="nav-item"><a href="" class="nav-a">about</a></li>
+    </ul>
+  </nav>
+</div>
+    <div class="video2">
+      <video class="video2__main" poster="#" webkit-playsinline playsinline muted autoplay loop>
+        <source src="../../video/top.mp4" type="video/mp4">
+      </video>
+    </div>
+</header>
+<main class="authors">
+<div class="authors__inner">
+<div class="authors__all">
+  <div class="container">
+          <div class="main-img js-main-img">
+              <img class="main-imgitem" src="../../images/{{author.itemphotos[0]}}" alt="" class="main-img-item">
+          </div>
+               <ul class="sub-img js-sub-img">
+                   <li class="current">
+                     <img class="current__img" src="../../images/{{author.itemphotos[0]}}" alt="" class="authors__img">
+                     </li>
+                   <li class="current">
+                     <img class="current__img" src="../../images/{{author.itemphotos[1]}}" alt=""
+                     class="authors__img">
+                     </li>
+                   <li class="current">
+                     <img class="current__img" src="../../images/{{author.itemphotos[2]}}" alt=""
+                     class="authors__img">
+                     </li>
+                </ul>
+           </div>
+     <ul class="authors__ul">
+	        <li class="authors__li"><h2 class="authors__h2">商品名：{{ pagination.items[0].name }}</h2></li>
+  	      <li class="authors__li">＄{{ pagination.items[0].price }}</li>
+          <li class="authors__li">{{ pagination.items[0].text }}</li>
+          <li class="authors__li">{{ pagination.items[0].size }}サイズ</li>
+          <div class="number__all"><li>個数<input type="number" name="example2"  class="number" min="0" max="99"></li></div>
+     </ul>
+  </div>
+  <p class="syouhi">※賞味期限が切れている場合があります。弊社の人間は食べていましたがお客様が体調を崩しても補償しません。</p>
+ </div>
+ <button class="syohin__btn">購入</button>
+ </div>
+</main>
+<footer class="footer">
+  <small class="">@copyright Mysyop 2022</small>
+</footer>

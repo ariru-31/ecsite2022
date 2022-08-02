@@ -3,23 +3,27 @@
         "name": "1号",
         "price": 300,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "三歳児の1号くん。良い子は早めに寝るんだよ。",
         "maker": "xyliul",
+        "size": "SSS",
         "itemphotos": [
             "1.JPG",
-            "1-2.JPG"
+            "1-2.JPG",
+            "xall-2.JPG"
         ],
         "url": "ad"
     },
     {
         "name": "2号",
         "price": 300,
-        "state": "TRUE",
-        "text": "美味しいよ",
+        "state": "false",
+        "text": "ちょっとやんちゃな2号くん。将来の夢はバンドマンになること。",
         "maker": "xyliul",
+        "size": "SSS",
         "itemphotos": [
             "2.JPG",
-            "2-2.JPG"
+            "2-2.JPG",
+            "xall-2.JPG"
         ],
         "url": "sdc"
     },
@@ -27,11 +31,13 @@
         "name": "3号",
         "price": 300,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "2号くんの憧れの人、3号くん。バンドマンとして活動中。",
         "maker": "xyliul",
+        "size": "SM",
         "itemphotos": [
             "3.JPG",
-            "3-2.JPG"
+            "3-2.JPG",
+            "xall-2.JPG"
         ],
         "url": "dvv"
     },
@@ -39,11 +45,13 @@
         "name": "4号",
         "price": 400,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "4号、別名マスケン。よく見るとどこにでもいるよ。あなたのそばにもいるかもね。",
         "maker": "xyliul",
+        "size": "SM",
         "itemphotos": [
+            "4-1.JPG",
             "masuken.JPG",
-            "masuken2.JPG"
+            "xall-2.JPG"
         ],
         "url": "vsv"
     },
@@ -51,11 +59,13 @@
         "name": "5号",
         "price": 200,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "ついさっき亡くなった5号くん。これから天国に行くよ。",
         "maker": "xyliul",
+        "size": "L",
         "itemphotos": [
             "5.JPG",
-            "5-2.JPG"
+            "5-2.JPG",
+            "xall-3.JPG"
         ],
         "url": "scvr"
     },
@@ -63,11 +73,13 @@
         "name": "6号",
         "price": 300,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "4号くんの弟の6号くん。実際は妹しかいないから弟が欲しくて幻覚をみてるんだよ。",
         "maker": "xyliul",
+        "size": "2L",
         "itemphotos": [
             "6.JPG",
-            "6-2.JPG"
+            "6-2.JPG",
+            "xall-3.JPG"
         ],
         "url": "rfre"
     },
@@ -75,11 +87,13 @@
         "name": "7号",
         "price": 100,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "7号くんはなんか漫画で見たことある顔だね。気のせいだよ。",
         "maker": "xyliul",
+        "size": "3L",
         "itemphotos": [
             "7.JPG",
-            "7-2.JPG"
+            "7-2.JPG",
+            "xall-3.JPG"
         ],
         "url": "frefr"
     },
@@ -87,11 +101,13 @@
         "name": "8号",
         "price": 200,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "8号ちゃん。唯一の女の子で名前はゆみちゃん。みんなのアイドルだよ。",
         "maker": "xyliul",
+        "size": "6L",
         "itemphotos": [
             "8.JPG",
-            "8-2.JPG"
+            "8-2.JPG",
+            "xall-3.JPG"
         ],
         "url": "fewrfr"
     },
@@ -99,11 +115,13 @@
         "name": "9号",
         "price": 300,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "9号はなんか住みついてたよ。",
         "maker": "xyliul",
+        "size": "SSS",
         "itemphotos": [
             "9.JPG",
-            "9-2.JPG"
+            "9-2.JPG",
+            "xall-3.JPG"
         ],
         "url": "ferwf"
     },
@@ -111,11 +129,13 @@
         "name": "10号",
         "price": 1000,
         "state": "TRUE",
-        "text": "美味しいよ",
+        "text": "10号はみんなの家にいる強盗だよ。気おつけてね。",
         "maker": "xyliul",
+        "size": "SSS",
         "itemphotos": [
             "10.JPG",
-            "10-2.JPG"
+            "10-2.JPG",
+            "xall-3.JPG"
         ],
         "url": "fwfrew"
     }

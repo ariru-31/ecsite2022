@@ -1,0 +1,479 @@
+@charset "UTF-8";
+.header {
+  font-family: "スーラキャピー Pro", "Arial", "Helvetica";
+  padding: 2rem 0 40rem 0;
+  position: relative;
+  /*h1の中央寄せ配置の起点とするためのrelative*/
+  height: 68vh;
+  /*高さを全画面にあわせる*/
+}
+.header__inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.video {
+  position: fixed;
+  z-index: -1;
+  /*最背面に設定*/
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.video__main {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 177.77777778vh;
+  height: 56.25vw;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  /*要素の配置*/
+  position: absolute;
+  /*要素を天地中央寄せ*/
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  /*見た目の調整*/
+  color: #fff;
+  text-shadow: 0 0 15px #666;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.top__a {
+  color: white;
+}
+.top__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+}
+.top__li {
+  padding-left: 8rem;
+  list-style: none;
+}
+.top__btn {
+  width: 30%;
+}
+.top__btnall {
+  margin-left: 50rem;
+}
+
+.main {
+  font-family: "スーラキャピー Pro", "Arial", "Helvetica";
+  background-color: #ebebed;
+  padding: 2rem 0;
+}
+.main__inner {
+  width: 90%;
+  margin: 0 auto;
+}
+.main__h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 3.5rem 4rem 0;
+}
+
+.syohin__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.syohin__li {
+  width: 30%;
+  list-style: none;
+}
+.syohin__img {
+  border-radius: 50%;
+  width: 70%;
+  margin-left: 3rem;
+}
+.syohin__a {
+  color: black;
+}
+.syohin__name {
+  margin-left: 5rem;
+  padding: 2rem 0;
+}
+.syohin__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 25px;
+  background: #12013a;
+  color: #f15bb7;
+  margin-bottom: 3rem;
+}
+.syohin__btn:hover {
+  opacity: 0.9;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+.footer {
+  color: white;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.header2 {
+  font-family: "スーラキャピー Pro", "Arial", "Helvetica";
+  padding: 2rem 0 18rem 0;
+  position: relative;
+  /*h1の中央寄せ配置の起点とするためのrelative*/
+  height: 40vh;
+  /*高さを全画面にあわせる*/
+}
+.header2__inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.video2 {
+  position: fixed;
+  z-index: -1;
+  /*最背面に設定*/
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.video2__main {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 177.77777778vh;
+  height: 56.25vw;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.authors {
+  background-color: #ebebed;
+  padding: 6rem 0 2rem 0;
+}
+.authors__inner {
+  width: 70%;
+  margin: 0 auto;
+}
+.authors__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.authors__all__img {
+  width: 100%;
+}
+.authors__ul {
+  list-style: none;
+  margin: 10rem 0;
+}
+
+.current__img {
+  max-width: 150px;
+}
+
+.container {
+  margin-bottom: 3rem;
+}
+
+.sub-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main-img-item {
+  width: 70%;
+}
+
+.main-imgitem {
+  height: 300px !important;
+}
+
+.sub-img li {
+  list-style: none;
+}
+
+.container-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+}
+
+/*メイン画像下に余白をつける*/
+.gallery {
+  margin: 0 0 5px 0;
+}
+.gallery__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 4rem;
+}
+.gallery__ul {
+  list-style: none;
+  margin-top: 6rem;
+}
+.gallery__h2 {
+  font-size: 2rem;
+}
+
+.syouhi {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 0.6rem;
+}
+
+.number {
+  margin-right: 20px;
+  border: solid 1px black;
+  width: 200px;
+}
+.number__all {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.nav-list {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 2rem 0 51rem 0;
+  }
+
+  .top__li {
+    display: none;
+  }
+  .top__btn {
+    display: none;
+  }
+
+  .nav-list {
+    list-style: none;
+    font-size: 2rem;
+  }
+
+  .nav-a {
+    color: #f062c8;
+  }
+
+  .hamburger {
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 100;
+  }
+
+  .hamburger_bar {
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    background: white;
+    -webkit-transition: top 0.24s, opacity 0.24s, -webkit-transform 0.24s;
+    transition: top 0.24s, opacity 0.24s, -webkit-transform 0.24s;
+    transition: top 0.24s, transform 0.24s, opacity 0.24s;
+    transition: top 0.24s, transform 0.24s, opacity 0.24s, -webkit-transform 0.24s;
+  }
+
+  .hamburger_bar:nth-child(1) {
+    top: 0;
+  }
+
+  .hamburger_bar:nth-child(2) {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+
+  .hamburger_bar:nth-child(3) {
+    top: 100%;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+
+  .hamburger_bar.is_active:nth-child(1) {
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(135deg);
+            transform: translateY(-50%) rotate(135deg);
+  }
+
+  .hamburger_bar.is_active:nth-child(2) {
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+    opacity: 0;
+  }
+
+  .hamburger_bar.is_active:nth-child(3) {
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(-135deg);
+            transform: translateY(-50%) rotate(-135deg);
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    background: #1b003d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    opacity: 0;
+    -webkit-transition: opacity 0.24s;
+    transition: opacity 0.24s;
+    pointer-events: none;
+  }
+
+  .nav.is_active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 32px;
+  }
+
+  .main__h2 {
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .syohin__img {
+    margin-left: 1.5rem;
+  }
+  .syohin__li {
+    width: 50%;
+  }
+  .syohin__name {
+    margin-left: 1.8rem;
+  }
+
+  .authors {
+    padding-top: 3rem;
+  }
+  .authors__all {
+    display: block;
+  }
+  .authors__inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .authors ul {
+    margin: 4rem 0;
+  }
+
+  .main-img {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .main-imgitem {
+    height: 400px !important;
+  }
+
+  .current__img {
+    max-width: 100px;
+  }
+}

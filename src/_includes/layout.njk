@@ -7,11 +7,14 @@ title: xyliul
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 		<link rel="stylesheet" href="{{ csspath }}style.css">
 		<title>{{ title }}</title>
 
 	</head>
 	<body>
 		{{ content | safe }}
+		<script src="{{ jspath }}jquery-3.6.0.min.js"></script>
+		<script src="{{ jspath }}site.js"></script>
 	</body>
 </html>
